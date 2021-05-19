@@ -4,10 +4,22 @@ import { FormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
+import { MoviesComponent } from './movies/movies.component';
+import { MovieTitleComponent } from './movies/movie-title/movie-title.component';
+import { MovieRatingComponent } from './movies/movie-rating/movie-rating.component';
+import { MovieRuntimeComponent } from './movies/movie-runtime/movie-runtime.component';
+import { MovieGenreComponent } from './movies/movie-genre/movie-genre.component';
+import { MainActorsComponent } from './movies/main-actors/main-actors.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MoviesComponent,
+    MovieTitleComponent,
+    MovieRatingComponent,
+    MovieRuntimeComponent,
+    MovieGenreComponent,
+    MainActorsComponent
   ],
   imports: [
     BrowserModule,
