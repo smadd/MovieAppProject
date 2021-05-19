@@ -10,6 +10,7 @@ import { MovieRatingComponent } from './movies/movie-rating/movie-rating.compone
 import { MovieRuntimeComponent } from './movies/movie-runtime/movie-runtime.component';
 import { MovieGenreComponent } from './movies/movie-genre/movie-genre.component';
 import { MainActorsComponent } from './movies/main-actors/main-actors.component';
+import { MovieSummaryComponent } from './movies/movie-summary/movie-summary.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MainActorsComponent } from './movies/main-actors/main-actors.component'
     MovieRatingComponent,
     MovieRuntimeComponent,
     MovieGenreComponent,
-    MainActorsComponent
+    MainActorsComponent,
+    MovieSummaryComponent
   ],
   imports: [
     BrowserModule,
